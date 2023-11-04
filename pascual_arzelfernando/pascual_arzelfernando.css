@@ -75,7 +75,7 @@ label {
 }
  @media (min-width: 426px) and (max-width: 768px) {
 	body{
-		background: linear-gradient(black, blue , #a8ebbb);
+		background: linear-gradient(black, blue , #6b663b);
 	}	
 }
  @media (min-width: 769px) and (max-width: 1024px) {
