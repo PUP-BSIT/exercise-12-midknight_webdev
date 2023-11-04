@@ -136,22 +136,19 @@
 		</ul>
 
 		<h3><strong>Feel free to write comments</strong></h3>
-		<div class="input-comments">
-			Name:
-			<input 
-				id="user_name"
-				type="text"
-				onInput="commentButton()"><br>
-			Comment:
-			<input 
-				id="user_comment"
-				type="textarea"
-				onInput="commentButton()"><br>
-			<button 
-				id="comment_button"
-				type="button"
-				disabled="true">Comment</button>
-		</div>
+		
+		<form id="input_comments">
+			<label for="user_name">Full Name:</label>
+			<input type="text" id="user_name" required>
+	
+			<label for="user_comment">Comment:</label>
+			<input type="textarea" id="user_comment" min="1" required>
+	
+			<button type="button" id="comment_button">Comment</button>
+		</form>
+	
+		<h2>New Comments</h2>
+		<ul id="comment_list"></ul>
 		
 	</div>
 	<script src="script.js"></script>

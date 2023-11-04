@@ -1,16 +1,21 @@
-function commentButton() {
-    let userName = document.getElementById("user_name");
-    let userComment = document.getElementById("user_comment");
-    let commentButton = document.getElementById("comment_button");
+document.addEventListener("DOMContentLoaded", () => {
+    const userNameInput = document.getElementById('user_name');
+    const userCommentInput = document.getElementById('user_comment');
+    const commentButton = document.getElementById('comment_button');
+    const commentList = document.getElementById('comment_list');
 
-    if(userName.value.length > 0 && userComment.value.length > 0) {
-        document.getElementById("comment_button").disabled = false;
-    }
+    commentButton.addEventListener('click', () => {
+        const userName = userNameInput.value.trim();
+        const userComment = userCommentInput.value.trim();
 
-    else {
-        document.getElementById("comment_button").disabled = true;
-    }
-    commentButton.addEventListener("click", function() {
-        alert("Comment sent successfully!");
+        if (userName && userComment) {
+            const listComment = document.createElement('li');
+            listComment.innerHTML = `${userName}
+                <p>${userComment}</p>`;
+
+            commentList.append(listComment);
+            userNameInput.value = '';
+            userCommentInput.value = '';
+        }
     });
-}
+});
