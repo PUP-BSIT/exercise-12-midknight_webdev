@@ -5,14 +5,14 @@
 
 Get to know the members of "Midknight" by viewing this compiled personalized website of the group's members from BSIT 3-1
 
-## Members:
+## Members
 + **Ayacocho**, Kylie Ross
 + **Castro**, Aiza Mae
 + **Monroy**, Jeff Carl
 + **Pascual**, Arzel Fernando
 + **Valerio**, Sir Lance
 
-## Netlify URL:
+## Netlify URL
 Access the group's Netlify URL by clicking this URL: [Midknight's Netlify URL](https://midknight-12.netlify.app)
 <!-- The site name "https://midknight.netlify.app" has already been taken
 according to Netlify, so we added "12" after the group name as placeholder-->
