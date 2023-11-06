@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata&family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #047992;
+    background-size: 70px 70px;
+    background-image:
+        linear-gradient(to right, #5c9ca4 2px, transparent 2px),
+        linear-gradient(to bottom, #5c9ca4 2px, transparent 2px)
+}
+
+.bgimage1 {
+    background-color: #edecec;
+    margin: 60px 200px;
+    padding: 40px;
+    border: 8px solid #094862;
+    border-radius: 100px 100px;
+}
+
+.name h1 {
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #094862;
+    font-family: 'Dela Gothic One';
+    font-size: 48px;
+    color: #f6aa0c;
+}
+
+.name p {
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    color: #047992;
+}
+
+.myinterests h2 {
+    margin-left: 40px;
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.myinterests li {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    color: #ad286b;
+}
+
+.myinterests p {
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    color: #7a506e;
+}
+
+.myinterests img {
+    border: 10px solid #047992;
+    border-radius: 300px 180px;
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin: 24px;
+}
+
+.myworks h2 {
+    margin-left: 40px;
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.myworks li {
+    font-family: 'Inconsolata';
+    margin-left: 40px;
+    font-size: 20px;
+    color: #ad286b;
+}
+
+.myworks a {
+    font-size: 20px;
+    color: #5c9ca4;
+}
+
+.testimonial h2 {
+    margin-left: 40px;
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.testimonial li {
+    font-family: 'Inconsolata';
+    margin-left: 40px;
+    font-size: 20px;
+    color: #047992;
+}
+
+.testimonial p {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    color: #ad286b;
+}
+
+.gallery h2 {
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.gallery img {
+    border: 5px solid #047992;
+    width: 300px;
+    height: 300px;
+}
+
+.goals h2 {
+    margin-left: 40px;
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.goals li {
+    font-family: 'Inconsolata';
+    margin-left: 40px;
+    font-size: 20px;
+    color: #047992;
+}
+
+.goals p {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    color: #ad286b;
+}
+
+.comments h2 {
+    margin-left: 40px;
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.comments li {
+    font-family: 'Inconsolata';
+    margin-left: 40px;
+    font-size: 20px;
+    color: #047992;
+}
+
+.comments p {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    color: #ad286b;
+}
+
+.leave_comments {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leave_comments h2 {
+    margin-left: 40px;
+    font-family: 'Dela Gothic One';
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #094862;
+    font-size: 30px;
+    color: #047992;
+}
+
+.leave_comments label {
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    color: #047992;
+}
+
+.sacambambaspis img {
+    width: 150px;
+    height: 150px;
+}
+
