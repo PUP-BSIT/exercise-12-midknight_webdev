@@ -74,9 +74,9 @@ body {
     border: 10px solid #047992;
     border-radius: 300px 180px;
     float: right;
-    width: 500px;
-    height: 500px;
     margin: 24px;
+    max-width: 50%;
+    height: auto;
 }
 
 .my-works h2 {
