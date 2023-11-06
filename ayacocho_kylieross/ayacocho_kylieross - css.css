@@ -8,7 +8,25 @@ body {
         linear-gradient(to bottom, #5c9ca4 2px, transparent 2px)
 }
 
-.bgimage1 {
+.line-breaks {
+    width:100%;
+    size: 3px; 
+    color: #91a6ac;
+}
+
+.line-breaks2 {
+    width: 90%;
+    size: 2px;
+    color: #91a6ac;
+}
+
+.line-breaks3 {
+    width: 70%;
+    size: 1px;
+    color: #91a6ac;
+}
+
+.bg-image1 {
     background-color: #edecec;
     margin: 60px 200px;
     padding: 40px;
@@ -31,7 +49,7 @@ body {
     color: #047992;
 }
 
-.myinterests h2 {
+.my-interests h2 {
     margin-left: 40px;
     font-family: 'Dela Gothic One';
     -webkit-text-stroke: 0.1px;
@@ -40,7 +58,7 @@ body {
     color: #047992;
 }
 
-.myinterests li {
+.my-interests li {
     font-family: 'Josefin Sans';
     font-size: 20px;
     color: #ad286b;
@@ -52,7 +70,7 @@ body {
     color: #7a506e;
 }
 
-.myinterests img {
+.my-interests img {
     border: 10px solid #047992;
     border-radius: 300px 180px;
     float: right;
@@ -61,7 +79,7 @@ body {
     margin: 24px;
 }
 
-.myworks h2 {
+.my-works h2 {
     margin-left: 40px;
     font-family: 'Dela Gothic One';
     -webkit-text-stroke: 0.1px;
@@ -70,14 +88,14 @@ body {
     color: #047992;
 }
 
-.myworks li {
+.my-works li {
     font-family: 'Inconsolata';
     margin-left: 40px;
     font-size: 20px;
     color: #ad286b;
 }
 
-.myworks a {
+.my-works a {
     font-size: 20px;
     color: #5c9ca4;
 }
@@ -110,6 +128,13 @@ body {
     -webkit-text-stroke-color: #094862;
     font-size: 30px;
     color: #047992;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .gallery img {
@@ -162,7 +187,7 @@ body {
     color: #ad286b;
 }
 
-.leave_comments {
+.leave-comments {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +195,7 @@ body {
     flex-direction: column;
 }
 
-.leave_comments h2 {
+.leave-comments h2 {
     margin-left: 40px;
     font-family: 'Dela Gothic One';
     -webkit-text-stroke: 0.1px;
@@ -179,10 +204,17 @@ body {
     color: #047992;
 }
 
-.leave_comments label {
+.leave-comments label {
     font-family: 'Inconsolata';
     font-size: 20px;
     color: #047992;
+}
+
+.sacambambaspis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .sacambambaspis img {
