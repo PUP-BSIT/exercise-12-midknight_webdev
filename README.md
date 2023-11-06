@@ -13,6 +13,6 @@ Get to know the members of "Midknight" by viewing this compiled personalized web
 + **Valerio**, Sir Lance
 
 ## Netlify URL
-Access the group's Netlify URL by clicking this URL: [Midknight's Netlify URL](https://midknight-12.netlify.app)
+Access the group's Netlify URL by clicking this: [Midknight's Netlify URL](https://midknight-12.netlify.app)
 <!-- The site name "https://midknight.netlify.app" has already been taken
 according to Netlify, so we added "12" after the group name as placeholder-->
